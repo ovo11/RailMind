@@ -1,0 +1,806 @@
+[
+  {
+    "top_k": 1,
+    "alpha": 0.55,
+    "search": {
+      "hit": 0.935484,
+      "mrr": 0.935484,
+      "precision_fixed_k": 0.935484,
+      "precision_returned": 0.935484,
+      "recall": 0.903226,
+      "ndcg": 0.935484,
+      "false_refusal_rate": 0.0,
+      "answerable": 31,
+      "refusal": 5,
+      "hit_count": 29,
+      "rank_counts": {
+        "1": 29,
+        "None": 2
+      },
+      "failures": [
+        {
+          "case_id": "PT-06",
+          "query": "滑板两边磨损厚度不一样",
+          "keywords": [
+            "滑板磨耗"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-002",
+              "滑板裂纹检查"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-002",
+              "滑板磨耗分级"
+            ]
+          ]
+        },
+        {
+          "case_id": "CB-03",
+          "query": "乘客躺地上多久算异常",
+          "keywords": [
+            "车内巡检",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-006",
+              "通道堵塞评估标准"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-006",
+              "车内事件分级与处置"
+            ]
+          ]
+        }
+      ],
+      "correct_refusal_rate": 1.0,
+      "short_returns": 0
+    },
+    "retrieve": {
+      "hit": 0.483871,
+      "mrr": 0.483871,
+      "precision_fixed_k": 0.483871,
+      "precision_returned": 0.483871,
+      "recall": 0.451613,
+      "ndcg": 0.483871,
+      "false_refusal_rate": 0.0,
+      "answerable": 31,
+      "refusal": 5,
+      "hit_count": 15,
+      "rank_counts": {
+        "1": 15,
+        "None": 16
+      },
+      "failures": [
+        {
+          "case_id": "CS-04",
+          "query": "一个小时内出现好几次冲击但每次都不严重要紧吗",
+          "keywords": [
+            "冲击",
+            "频次"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-001",
+              "历史冲击趋势分析"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-001",
+              "冲击能量分级与处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "PT-03",
+          "query": "累计燃弧时长20毫秒说明什么",
+          "keywords": [
+            "电弧",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-002",
+              "电弧信号判据"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-002",
+              "电弧异常处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "PT-04",
+          "query": "滑板上发现裂纹怎么处理",
+          "keywords": [
+            "滑板磨耗",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-002",
+              "滑板裂纹检查"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-002",
+              "滑板磨耗分级"
+            ]
+          ]
+        },
+        {
+          "case_id": "PT-06",
+          "query": "滑板两边磨损厚度不一样",
+          "keywords": [
+            "滑板磨耗"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-002",
+              "滑板裂纹检查"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-002",
+              "滑板磨耗分级"
+            ]
+          ]
+        },
+        {
+          "case_id": "UB-02",
+          "query": "门把手角度偏差超过75度怎么判断",
+          "keywords": [
+            "检查门",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-003",
+              "门把手角度判据"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-003",
+              "检查门未闭合处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "UB-03",
+          "query": "锁机构多久需要润滑保养一次",
+          "keywords": [
+            "检查门",
+            "维护"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-003",
+              "锁机构维护周期"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-003",
+              "检查门未闭合处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "UB-04",
+          "query": "盖板边缘检测出异常",
+          "keywords": [
+            "检查门",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-003",
+              "门把手角度判据"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-003",
+              "检查门未闭合处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "LS-02",
+          "query": "同一个影像点一小时内反复出现异物告警",
+          "keywords": [
+            "异物",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-004",
+              "影像点复核要求"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-004",
+              "异物分级与处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "LS-03",
+          "query": "大风天气需要加强线路巡检吗",
+          "keywords": [
+            "异物",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-004",
+              "恶劣天气加强巡检"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-004",
+              "异物分级与处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "LS-05",
+          "query": "弹条扣件的安装扭矩标准是多少",
+          "keywords": [
+            "扣件",
+            "弹条"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-005",
+              "扣件扭矩标准"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-005",
+              "扣件缺陷分级处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "LS-06",
+          "query": "更换完扣件之后还要复查吗",
+          "keywords": [
+            "扣件",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-005",
+              "复检与验收"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-005",
+              "扣件缺陷分级处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "CB-02",
+          "query": "乘务员复核流程是怎么样的",
+          "keywords": [
+            "车内巡检",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-006",
+              "乘务员复核流程"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-006",
+              "车内事件分级与处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "CB-03",
+          "query": "乘客躺地上多久算异常",
+          "keywords": [
+            "车内巡检",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-006",
+              "通道堵塞评估标准"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-006",
+              "车内事件分级与处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "CB-04",
+          "query": "通道被行李堵住了怎么判断严重程度",
+          "keywords": [
+            "车内巡检",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-006",
+              "通道堵塞评估标准"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-006",
+              "车内事件分级与处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "CB-05",
+          "query": "确认火灾之后系统应该做什么",
+          "keywords": [
+            "烟雾",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-006",
+              "烟雾与火灾应急预案"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-006",
+              "车内事件分级与处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "CB-06",
+          "query": "巡检识别置信度不够怎么办",
+          "keywords": [
+            "车内巡检",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-006",
+              "乘务员复核流程"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-006",
+              "车内事件分级与处置"
+            ]
+          ]
+        }
+      ],
+      "correct_refusal_rate": 1.0,
+      "short_returns": 0
+    }
+  },
+  {
+    "top_k": 5,
+    "alpha": 0.55,
+    "search": {
+      "hit": 1.0,
+      "mrr": 0.967742,
+      "precision_fixed_k": 0.212903,
+      "precision_returned": 0.505376,
+      "recall": 1.0,
+      "ndcg": 0.976189,
+      "false_refusal_rate": 0.0,
+      "answerable": 31,
+      "refusal": 5,
+      "hit_count": 31,
+      "rank_counts": {
+        "1": 29,
+        "2": 2
+      },
+      "failures": [],
+      "correct_refusal_rate": 1.0,
+      "short_returns": 31
+    },
+    "retrieve": {
+      "hit": 0.903226,
+      "mrr": 0.677419,
+      "precision_fixed_k": 0.187097,
+      "precision_returned": 0.416667,
+      "recall": 0.887097,
+      "ndcg": 0.723305,
+      "false_refusal_rate": 0.0,
+      "answerable": 31,
+      "refusal": 5,
+      "hit_count": 28,
+      "rank_counts": {
+        "1": 15,
+        "2": 10,
+        "3": 3,
+        "None": 3
+      },
+      "failures": [
+        {
+          "case_id": "LS-03",
+          "query": "大风天气需要加强线路巡检吗",
+          "keywords": [
+            "异物",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-004",
+              "恶劣天气加强巡检"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-004",
+              "异物分级与处置"
+            ],
+            [
+              "DOC-DEMO-004",
+              "影像点复核要求"
+            ]
+          ]
+        },
+        {
+          "case_id": "CB-03",
+          "query": "乘客躺地上多久算异常",
+          "keywords": [
+            "车内巡检",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-006",
+              "通道堵塞评估标准"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-006",
+              "车内事件分级与处置"
+            ],
+            [
+              "DOC-DEMO-006",
+              "乘务员复核流程"
+            ]
+          ]
+        },
+        {
+          "case_id": "CB-04",
+          "query": "通道被行李堵住了怎么判断严重程度",
+          "keywords": [
+            "车内巡检",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-006",
+              "通道堵塞评估标准"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-006",
+              "车内事件分级与处置"
+            ],
+            [
+              "DOC-DEMO-006",
+              "乘务员复核流程"
+            ]
+          ]
+        }
+      ],
+      "correct_refusal_rate": 1.0,
+      "short_returns": 31
+    }
+  },
+  {
+    "top_k": 3,
+    "alpha": 0.0,
+    "search": {
+      "hit": 1.0,
+      "mrr": 0.967742,
+      "precision_fixed_k": 0.354839,
+      "precision_returned": 0.532258,
+      "recall": 1.0,
+      "ndcg": 0.976189,
+      "false_refusal_rate": 0.0,
+      "answerable": 31,
+      "refusal": 5,
+      "hit_count": 31,
+      "rank_counts": {
+        "1": 29,
+        "2": 2
+      },
+      "failures": [],
+      "correct_refusal_rate": 1.0,
+      "short_returns": 14,
+      "identical_rankings_to_default": 36
+    },
+    "retrieve": {
+      "hit": 0.83871,
+      "mrr": 0.650538,
+      "precision_fixed_k": 0.290323,
+      "precision_returned": 0.44086,
+      "recall": 0.822581,
+      "ndcg": 0.686823,
+      "false_refusal_rate": 0.0,
+      "answerable": 31,
+      "refusal": 5,
+      "hit_count": 26,
+      "rank_counts": {
+        "1": 15,
+        "3": 2,
+        "2": 9,
+        "None": 5
+      },
+      "failures": [
+        {
+          "case_id": "PT-04",
+          "query": "滑板上发现裂纹怎么处理",
+          "keywords": [
+            "滑板磨耗",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-002",
+              "滑板裂纹检查"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-002",
+              "滑板磨耗分级"
+            ],
+            [
+              "DOC-DEMO-002",
+              "电弧异常处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "PT-06",
+          "query": "滑板两边磨损厚度不一样",
+          "keywords": [
+            "滑板磨耗"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-002",
+              "滑板裂纹检查"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-002",
+              "滑板磨耗分级"
+            ],
+            [
+              "DOC-DEMO-002",
+              "电弧异常处置"
+            ]
+          ]
+        },
+        {
+          "case_id": "LS-03",
+          "query": "大风天气需要加强线路巡检吗",
+          "keywords": [
+            "异物",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-004",
+              "恶劣天气加强巡检"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-004",
+              "异物分级与处置"
+            ],
+            [
+              "DOC-DEMO-004",
+              "影像点复核要求"
+            ]
+          ]
+        },
+        {
+          "case_id": "CB-03",
+          "query": "乘客躺地上多久算异常",
+          "keywords": [
+            "车内巡检",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-006",
+              "通道堵塞评估标准"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-006",
+              "车内事件分级与处置"
+            ],
+            [
+              "DOC-DEMO-006",
+              "乘务员复核流程"
+            ]
+          ]
+        },
+        {
+          "case_id": "CB-04",
+          "query": "通道被行李堵住了怎么判断严重程度",
+          "keywords": [
+            "车内巡检",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-006",
+              "通道堵塞评估标准"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-006",
+              "车内事件分级与处置"
+            ],
+            [
+              "DOC-DEMO-006",
+              "乘务员复核流程"
+            ]
+          ]
+        }
+      ],
+      "correct_refusal_rate": 1.0,
+      "short_returns": 20,
+      "identical_rankings_to_default": 30
+    }
+  },
+  {
+    "top_k": 3,
+    "alpha": 1.0,
+    "search": {
+      "hit": 1.0,
+      "mrr": 0.967742,
+      "precision_fixed_k": 0.354839,
+      "precision_returned": 0.532258,
+      "recall": 1.0,
+      "ndcg": 0.976189,
+      "false_refusal_rate": 0.0,
+      "answerable": 31,
+      "refusal": 5,
+      "hit_count": 31,
+      "rank_counts": {
+        "1": 29,
+        "2": 2
+      },
+      "failures": [],
+      "correct_refusal_rate": 1.0,
+      "short_returns": 14,
+      "identical_rankings_to_default": 36
+    },
+    "retrieve": {
+      "hit": 0.903226,
+      "mrr": 0.72043,
+      "precision_fixed_k": 0.311828,
+      "precision_returned": 0.430108,
+      "recall": 0.887097,
+      "ndcg": 0.754798,
+      "false_refusal_rate": 0.0,
+      "answerable": 31,
+      "refusal": 5,
+      "hit_count": 28,
+      "rank_counts": {
+        "1": 18,
+        "2": 6,
+        "3": 4,
+        "None": 3
+      },
+      "failures": [
+        {
+          "case_id": "LS-03",
+          "query": "大风天气需要加强线路巡检吗",
+          "keywords": [
+            "异物",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-004",
+              "恶劣天气加强巡检"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-004",
+              "异物分级与处置"
+            ],
+            [
+              "DOC-DEMO-004",
+              "影像点复核要求"
+            ]
+          ]
+        },
+        {
+          "case_id": "CB-03",
+          "query": "乘客躺地上多久算异常",
+          "keywords": [
+            "车内巡检",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-006",
+              "通道堵塞评估标准"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-006",
+              "车内事件分级与处置"
+            ],
+            [
+              "DOC-DEMO-006",
+              "乘务员复核流程"
+            ]
+          ]
+        },
+        {
+          "case_id": "CB-04",
+          "query": "通道被行李堵住了怎么判断严重程度",
+          "keywords": [
+            "车内巡检",
+            "处置"
+          ],
+          "expected": [
+            [
+              "DOC-DEMO-006",
+              "通道堵塞评估标准"
+            ]
+          ],
+          "returned": [
+            [
+              "DOC-DEMO-006",
+              "车内事件分级与处置"
+            ],
+            [
+              "DOC-DEMO-006",
+              "乘务员复核流程"
+            ]
+          ]
+        }
+      ],
+      "correct_refusal_rate": 1.0,
+      "short_returns": 15,
+      "identical_rankings_to_default": 32
+    }
+  }
+]

@@ -1,0 +1,1613 @@
+[
+  {
+    "case": {
+      "case_id": "CS-01",
+      "query": "复合材料受到冲击能量0.7焦耳以上怎么处置",
+      "keywords": [
+        "冲击能量分级",
+        "处置"
+      ],
+      "asset_type": "composite_structure",
+      "relevant": [
+        [
+          "DOC-DEMO-001",
+          "冲击能量分级与处置"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "easy",
+      "domain": "composite_structure",
+      "note": "原文术语精确匹配"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-001",
+        "冲击能量分级与处置"
+      ],
+      [
+        "DOC-DEMO-001",
+        "双点冲击判读"
+      ],
+      [
+        "DOC-DEMO-001",
+        "历史冲击趋势分析"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-001",
+        "冲击能量分级与处置"
+      ],
+      [
+        "DOC-DEMO-001",
+        "双点冲击判读"
+      ],
+      [
+        "DOC-DEMO-001",
+        "历史冲击趋势分析"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 1.2800679999713793,
+    "retrieve_ms": 0.6941510000046947
+  },
+  {
+    "case": {
+      "case_id": "CS-02",
+      "query": "同一时间窗内定位到两处冲击如何判读",
+      "keywords": [
+        "双点冲击"
+      ],
+      "asset_type": "composite_structure",
+      "relevant": [
+        [
+          "DOC-DEMO-001",
+          "双点冲击判读"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "easy",
+      "domain": "composite_structure",
+      "note": "双点冲击场景"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-001",
+        "双点冲击判读"
+      ],
+      [
+        "DOC-DEMO-001",
+        "冲击能量分级与处置"
+      ],
+      [
+        "DOC-DEMO-001",
+        "历史冲击趋势分析"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-001",
+        "双点冲击判读"
+      ],
+      [
+        "DOC-DEMO-001",
+        "冲击能量分级与处置"
+      ],
+      [
+        "DOC-DEMO-001",
+        "历史冲击趋势分析"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 1.2149499999623004,
+    "retrieve_ms": 0.5270980000204872
+  },
+  {
+    "case": {
+      "case_id": "CS-03",
+      "query": "冲击监测传感器自检异常怎么办",
+      "keywords": [
+        "传感器",
+        "自检"
+      ],
+      "asset_type": "composite_structure",
+      "relevant": [
+        [
+          "DOC-DEMO-001",
+          "传感器状态自检"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "easy",
+      "domain": "composite_structure",
+      "note": "传感器降级"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-001",
+        "传感器状态自检"
+      ],
+      [
+        "DOC-DEMO-001",
+        "冲击能量分级与处置"
+      ],
+      [
+        "DOC-DEMO-001",
+        "历史冲击趋势分析"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-001",
+        "传感器状态自检"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.8492360000218468,
+    "retrieve_ms": 0.48340199998619937
+  },
+  {
+    "case": {
+      "case_id": "CS-04",
+      "query": "一个小时内出现好几次冲击但每次都不严重要紧吗",
+      "keywords": [
+        "冲击",
+        "频次"
+      ],
+      "asset_type": "composite_structure",
+      "relevant": [
+        [
+          "DOC-DEMO-001",
+          "历史冲击趋势分析"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "hard",
+      "domain": "composite_structure",
+      "note": "口语化：高频轻冲击升级规则"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-001",
+        "历史冲击趋势分析"
+      ],
+      [
+        "DOC-DEMO-001",
+        "冲击能量分级与处置"
+      ],
+      [
+        "DOC-DEMO-001",
+        "传感器状态自检"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-001",
+        "冲击能量分级与处置"
+      ],
+      [
+        "DOC-DEMO-001",
+        "历史冲击趋势分析"
+      ],
+      [
+        "DOC-DEMO-001",
+        "双点冲击判读"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 1.1233420000280603,
+    "retrieve_ms": 0.5045839999979762
+  },
+  {
+    "case": {
+      "case_id": "CS-05",
+      "query": "被撞了一下但是力量很小需要处理吗",
+      "keywords": [
+        "冲击",
+        "处置"
+      ],
+      "asset_type": "composite_structure",
+      "relevant": [
+        [
+          "DOC-DEMO-001",
+          "冲击能量分级与处置"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "hard",
+      "domain": "composite_structure",
+      "note": "口语化改写轻微冲击"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-001",
+        "冲击能量分级与处置"
+      ],
+      [
+        "DOC-DEMO-001",
+        "双点冲击判读"
+      ],
+      [
+        "DOC-DEMO-001",
+        "历史冲击趋势分析"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-001",
+        "冲击能量分级与处置"
+      ],
+      [
+        "DOC-DEMO-001",
+        "双点冲击判读"
+      ],
+      [
+        "DOC-DEMO-001",
+        "历史冲击趋势分析"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.948335999964911,
+    "retrieve_ms": 0.610564999988128
+  },
+  {
+    "case": {
+      "case_id": "CS-06",
+      "query": "传感器噪声基线不正常",
+      "keywords": [
+        "传感器",
+        "自检"
+      ],
+      "asset_type": "composite_structure",
+      "relevant": [
+        [
+          "DOC-DEMO-001",
+          "传感器状态自检"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "medium",
+      "domain": "composite_structure",
+      "note": "噪声基线原文术语"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-001",
+        "传感器状态自检"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-001",
+        "传感器状态自检"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.8006119999777184,
+    "retrieve_ms": 0.5225909999921896
+  },
+  {
+    "case": {
+      "case_id": "PT-01",
+      "query": "受电弓滑板磨耗到什么程度需要更换",
+      "keywords": [
+        "滑板磨耗",
+        "处置"
+      ],
+      "asset_type": "pantograph",
+      "relevant": [
+        [
+          "DOC-DEMO-002",
+          "滑板磨耗分级"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "easy",
+      "domain": "pantograph",
+      "note": "磨耗分级核心规程"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-002",
+        "滑板磨耗分级"
+      ],
+      [
+        "DOC-DEMO-002",
+        "电弧异常处置"
+      ],
+      [
+        "DOC-DEMO-002",
+        "滑板裂纹检查"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-002",
+        "滑板磨耗分级"
+      ],
+      [
+        "DOC-DEMO-002",
+        "电弧异常处置"
+      ],
+      [
+        "DOC-DEMO-002",
+        "滑板裂纹检查"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 1.224124000032134,
+    "retrieve_ms": 0.8286649999718065
+  },
+  {
+    "case": {
+      "case_id": "PT-02",
+      "query": "电弧事件持续超过2秒怎么处理",
+      "keywords": [
+        "电弧",
+        "处置"
+      ],
+      "asset_type": "pantograph",
+      "relevant": [
+        [
+          "DOC-DEMO-002",
+          "电弧异常处置"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "easy",
+      "domain": "pantograph",
+      "note": "2秒阈值原文"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-002",
+        "电弧异常处置"
+      ],
+      [
+        "DOC-DEMO-002",
+        "电弧信号判据"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-002",
+        "电弧异常处置"
+      ],
+      [
+        "DOC-DEMO-002",
+        "电弧信号判据"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.8768580000264592,
+    "retrieve_ms": 0.5639839999957985
+  },
+  {
+    "case": {
+      "case_id": "PT-03",
+      "query": "累计燃弧时长20毫秒说明什么",
+      "keywords": [
+        "电弧",
+        "处置"
+      ],
+      "asset_type": "pantograph",
+      "relevant": [
+        [
+          "DOC-DEMO-002",
+          "电弧信号判据"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "medium",
+      "domain": "pantograph",
+      "note": "燃弧判据术语"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-002",
+        "电弧信号判据"
+      ],
+      [
+        "DOC-DEMO-002",
+        "电弧异常处置"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-002",
+        "电弧异常处置"
+      ],
+      [
+        "DOC-DEMO-002",
+        "电弧信号判据"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.770746999990024,
+    "retrieve_ms": 0.49098300002015094
+  },
+  {
+    "case": {
+      "case_id": "PT-04",
+      "query": "滑板上发现裂纹怎么处理",
+      "keywords": [
+        "滑板磨耗",
+        "处置"
+      ],
+      "asset_type": "pantograph",
+      "relevant": [
+        [
+          "DOC-DEMO-002",
+          "滑板裂纹检查"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "medium",
+      "domain": "pantograph",
+      "note": "裂纹检查章节"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-002",
+        "滑板裂纹检查"
+      ],
+      [
+        "DOC-DEMO-002",
+        "滑板磨耗分级"
+      ],
+      [
+        "DOC-DEMO-002",
+        "电弧异常处置"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-002",
+        "滑板磨耗分级"
+      ],
+      [
+        "DOC-DEMO-002",
+        "电弧异常处置"
+      ],
+      [
+        "DOC-DEMO-002",
+        "滑板裂纹检查"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.8215539999696375,
+    "retrieve_ms": 0.5433630000197809
+  },
+  {
+    "case": {
+      "case_id": "PT-05",
+      "query": "受电弓老是打火该怎么处理",
+      "keywords": [
+        "电弧",
+        "处置"
+      ],
+      "asset_type": "pantograph",
+      "relevant": [
+        [
+          "DOC-DEMO-002",
+          "电弧信号判据"
+        ],
+        [
+          "DOC-DEMO-002",
+          "电弧异常处置"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "hard",
+      "domain": "pantograph",
+      "note": "口语化：打火=电弧（依赖查询扩展）"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-002",
+        "电弧信号判据"
+      ],
+      [
+        "DOC-DEMO-002",
+        "电弧异常处置"
+      ],
+      [
+        "DOC-DEMO-002",
+        "滑板磨耗分级"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-002",
+        "电弧异常处置"
+      ],
+      [
+        "DOC-DEMO-002",
+        "电弧信号判据"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.9769989999881545,
+    "retrieve_ms": 0.5923069999766994
+  },
+  {
+    "case": {
+      "case_id": "PT-06",
+      "query": "滑板两边磨损厚度不一样",
+      "keywords": [
+        "滑板磨耗"
+      ],
+      "asset_type": "pantograph",
+      "relevant": [
+        [
+          "DOC-DEMO-002",
+          "滑板裂纹检查"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "hard",
+      "domain": "pantograph",
+      "note": "口语化：偏磨=两侧厚度差"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-002",
+        "滑板磨耗分级"
+      ],
+      [
+        "DOC-DEMO-002",
+        "滑板裂纹检查"
+      ],
+      [
+        "DOC-DEMO-002",
+        "电弧异常处置"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-002",
+        "滑板磨耗分级"
+      ],
+      [
+        "DOC-DEMO-002",
+        "电弧异常处置"
+      ],
+      [
+        "DOC-DEMO-002",
+        "滑板裂纹检查"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.7924399999978959,
+    "retrieve_ms": 0.461739000002126
+  },
+  {
+    "case": {
+      "case_id": "UB-01",
+      "query": "车底检查门未完全闭合如何处置",
+      "keywords": [
+        "检查门",
+        "处置",
+        "锁闭"
+      ],
+      "asset_type": "underbody",
+      "relevant": [
+        [
+          "DOC-DEMO-003",
+          "检查门未闭合处置"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "easy",
+      "domain": "underbody",
+      "note": "未闭合核心规程"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-003",
+        "检查门未闭合处置"
+      ],
+      [
+        "DOC-DEMO-003",
+        "门把手角度判据"
+      ],
+      [
+        "DOC-DEMO-003",
+        "锁机构维护周期"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-003",
+        "检查门未闭合处置"
+      ],
+      [
+        "DOC-DEMO-003",
+        "门把手角度判据"
+      ],
+      [
+        "DOC-DEMO-003",
+        "锁机构维护周期"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 1.1182129999838253,
+    "retrieve_ms": 0.5773649999696318
+  },
+  {
+    "case": {
+      "case_id": "UB-02",
+      "query": "门把手角度偏差超过75度怎么判断",
+      "keywords": [
+        "检查门",
+        "处置"
+      ],
+      "asset_type": "underbody",
+      "relevant": [
+        [
+          "DOC-DEMO-003",
+          "门把手角度判据"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "easy",
+      "domain": "underbody",
+      "note": "75度阈值原文"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-003",
+        "门把手角度判据"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-003",
+        "检查门未闭合处置"
+      ],
+      [
+        "DOC-DEMO-003",
+        "门把手角度判据"
+      ],
+      [
+        "DOC-DEMO-003",
+        "锁机构维护周期"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.8285039999691435,
+    "retrieve_ms": 0.5035319999819876
+  },
+  {
+    "case": {
+      "case_id": "UB-03",
+      "query": "锁机构多久需要润滑保养一次",
+      "keywords": [
+        "检查门",
+        "维护"
+      ],
+      "asset_type": "underbody",
+      "relevant": [
+        [
+          "DOC-DEMO-003",
+          "锁机构维护周期"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "medium",
+      "domain": "underbody",
+      "note": "30天维护周期"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-003",
+        "锁机构维护周期"
+      ],
+      [
+        "DOC-DEMO-003",
+        "检查门未闭合处置"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-003",
+        "检查门未闭合处置"
+      ],
+      [
+        "DOC-DEMO-003",
+        "锁机构维护周期"
+      ],
+      [
+        "DOC-DEMO-003",
+        "门把手角度判据"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.7320479999748386,
+    "retrieve_ms": 0.4352990000029422
+  },
+  {
+    "case": {
+      "case_id": "UB-04",
+      "query": "盖板边缘检测出异常",
+      "keywords": [
+        "检查门",
+        "处置"
+      ],
+      "asset_type": "underbody",
+      "relevant": [
+        [
+          "DOC-DEMO-003",
+          "门把手角度判据"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "medium",
+      "domain": "underbody",
+      "note": "盖板边缘在把手章节"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-003",
+        "门把手角度判据"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-003",
+        "检查门未闭合处置"
+      ],
+      [
+        "DOC-DEMO-003",
+        "门把手角度判据"
+      ],
+      [
+        "DOC-DEMO-003",
+        "锁机构维护周期"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.8393609999757246,
+    "retrieve_ms": 0.7043059999887191
+  },
+  {
+    "case": {
+      "case_id": "UB-05",
+      "query": "同一个门反复报警说没关好",
+      "keywords": [
+        "检查门",
+        "处置",
+        "锁闭"
+      ],
+      "asset_type": "underbody",
+      "relevant": [
+        [
+          "DOC-DEMO-003",
+          "检查门未闭合处置"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "hard",
+      "domain": "underbody",
+      "note": "口语化：重复告警→锁机构磨损"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-003",
+        "检查门未闭合处置"
+      ],
+      [
+        "DOC-DEMO-003",
+        "门把手角度判据"
+      ],
+      [
+        "DOC-DEMO-003",
+        "锁机构维护周期"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-003",
+        "检查门未闭合处置"
+      ],
+      [
+        "DOC-DEMO-003",
+        "门把手角度判据"
+      ],
+      [
+        "DOC-DEMO-003",
+        "锁机构维护周期"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.7703470000137713,
+    "retrieve_ms": 0.5465969999818299
+  },
+  {
+    "case": {
+      "case_id": "LS-01",
+      "query": "线路上发现大面积异物要拦停列车吗",
+      "keywords": [
+        "异物",
+        "处置",
+        "限界"
+      ],
+      "asset_type": "lineside",
+      "relevant": [
+        [
+          "DOC-DEMO-004",
+          "异物分级与处置"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "easy",
+      "domain": "lineside",
+      "note": "异物分级核心规程"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-004",
+        "异物分级与处置"
+      ],
+      [
+        "DOC-DEMO-004",
+        "影像点复核要求"
+      ],
+      [
+        "DOC-DEMO-004",
+        "恶劣天气加强巡检"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-004",
+        "异物分级与处置"
+      ],
+      [
+        "DOC-DEMO-004",
+        "影像点复核要求"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.815113999976802,
+    "retrieve_ms": 0.7437270000423268
+  },
+  {
+    "case": {
+      "case_id": "LS-02",
+      "query": "同一个影像点一小时内反复出现异物告警",
+      "keywords": [
+        "异物",
+        "处置"
+      ],
+      "asset_type": "lineside",
+      "relevant": [
+        [
+          "DOC-DEMO-004",
+          "影像点复核要求"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "medium",
+      "domain": "lineside",
+      "note": "重复告警复核"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-004",
+        "影像点复核要求"
+      ],
+      [
+        "DOC-DEMO-004",
+        "异物分级与处置"
+      ],
+      [
+        "DOC-DEMO-004",
+        "恶劣天气加强巡检"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-004",
+        "异物分级与处置"
+      ],
+      [
+        "DOC-DEMO-004",
+        "影像点复核要求"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 1.139595999973153,
+    "retrieve_ms": 0.4937080000217975
+  },
+  {
+    "case": {
+      "case_id": "LS-03",
+      "query": "大风天气需要加强线路巡检吗",
+      "keywords": [
+        "异物",
+        "处置"
+      ],
+      "asset_type": "lineside",
+      "relevant": [
+        [
+          "DOC-DEMO-004",
+          "恶劣天气加强巡检"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "hard",
+      "domain": "lineside",
+      "note": "口语化：大风→恶劣天气加密巡检"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-004",
+        "恶劣天气加强巡检"
+      ],
+      [
+        "DOC-DEMO-004",
+        "影像点复核要求"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-004",
+        "异物分级与处置"
+      ],
+      [
+        "DOC-DEMO-004",
+        "影像点复核要求"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.8520000000089567,
+    "retrieve_ms": 0.5131670000082522
+  },
+  {
+    "case": {
+      "case_id": "LS-04",
+      "query": "扣件弹条断裂了需要限速吗",
+      "keywords": [
+        "扣件",
+        "处置",
+        "弹条"
+      ],
+      "asset_type": "lineside",
+      "relevant": [
+        [
+          "DOC-DEMO-005",
+          "扣件缺陷分级处置"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "easy",
+      "domain": "lineside",
+      "note": "弹条断裂核心规程"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-005",
+        "扣件缺陷分级处置"
+      ],
+      [
+        "DOC-DEMO-005",
+        "扣件扭矩标准"
+      ],
+      [
+        "DOC-DEMO-005",
+        "复检与验收"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-005",
+        "扣件缺陷分级处置"
+      ],
+      [
+        "DOC-DEMO-005",
+        "扣件扭矩标准"
+      ],
+      [
+        "DOC-DEMO-005",
+        "复检与验收"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 1.0641610000448054,
+    "retrieve_ms": 0.6757229999720948
+  },
+  {
+    "case": {
+      "case_id": "LS-05",
+      "query": "弹条扣件的安装扭矩标准是多少",
+      "keywords": [
+        "扣件",
+        "弹条"
+      ],
+      "asset_type": "lineside",
+      "relevant": [
+        [
+          "DOC-DEMO-005",
+          "扣件扭矩标准"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "easy",
+      "domain": "lineside",
+      "note": "扭矩数值查询"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-005",
+        "扣件扭矩标准"
+      ],
+      [
+        "DOC-DEMO-005",
+        "扣件缺陷分级处置"
+      ],
+      [
+        "DOC-DEMO-005",
+        "复检与验收"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-005",
+        "扣件缺陷分级处置"
+      ],
+      [
+        "DOC-DEMO-005",
+        "扣件扭矩标准"
+      ],
+      [
+        "DOC-DEMO-005",
+        "复检与验收"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.8779590000358439,
+    "retrieve_ms": 0.5619209999849772
+  },
+  {
+    "case": {
+      "case_id": "LS-06",
+      "query": "更换完扣件之后还要复查吗",
+      "keywords": [
+        "扣件",
+        "处置"
+      ],
+      "asset_type": "lineside",
+      "relevant": [
+        [
+          "DOC-DEMO-005",
+          "复检与验收"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "medium",
+      "domain": "lineside",
+      "note": "复检要求"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-005",
+        "复检与验收"
+      ],
+      [
+        "DOC-DEMO-005",
+        "扣件缺陷分级处置"
+      ],
+      [
+        "DOC-DEMO-005",
+        "扣件扭矩标准"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-005",
+        "扣件缺陷分级处置"
+      ],
+      [
+        "DOC-DEMO-005",
+        "扣件扭矩标准"
+      ],
+      [
+        "DOC-DEMO-005",
+        "复检与验收"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.7994810000013786,
+    "retrieve_ms": 0.8254699999952209
+  },
+  {
+    "case": {
+      "case_id": "LS-07",
+      "query": "弹条位置歪了算缺陷吗",
+      "keywords": [
+        "扣件",
+        "处置",
+        "弹条"
+      ],
+      "asset_type": "lineside",
+      "relevant": [
+        [
+          "DOC-DEMO-005",
+          "扣件缺陷分级处置"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "hard",
+      "domain": "lineside",
+      "note": "口语化：歪了=移位/翻转"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-005",
+        "扣件缺陷分级处置"
+      ],
+      [
+        "DOC-DEMO-005",
+        "扣件扭矩标准"
+      ],
+      [
+        "DOC-DEMO-005",
+        "复检与验收"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-005",
+        "扣件缺陷分级处置"
+      ],
+      [
+        "DOC-DEMO-005",
+        "扣件扭矩标准"
+      ],
+      [
+        "DOC-DEMO-005",
+        "复检与验收"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 1.2213599999881808,
+    "retrieve_ms": 0.7826149999914378
+  },
+  {
+    "case": {
+      "case_id": "CB-01",
+      "query": "车厢内发现疑似烟雾怎么处置",
+      "keywords": [
+        "车内巡检",
+        "处置"
+      ],
+      "asset_type": "cabin",
+      "relevant": [
+        [
+          "DOC-DEMO-006",
+          "烟雾与火灾应急预案"
+        ],
+        [
+          "DOC-DEMO-006",
+          "车内事件分级与处置"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "easy",
+      "domain": "cabin",
+      "note": "烟雾核心规程"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-006",
+        "烟雾与火灾应急预案"
+      ],
+      [
+        "DOC-DEMO-006",
+        "车内事件分级与处置"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-006",
+        "车内事件分级与处置"
+      ],
+      [
+        "DOC-DEMO-006",
+        "乘务员复核流程"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 1.2028120000309173,
+    "retrieve_ms": 0.6930189999820868
+  },
+  {
+    "case": {
+      "case_id": "CB-02",
+      "query": "乘务员复核流程是怎么样的",
+      "keywords": [
+        "车内巡检",
+        "处置"
+      ],
+      "asset_type": "cabin",
+      "relevant": [
+        [
+          "DOC-DEMO-006",
+          "乘务员复核流程"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "easy",
+      "domain": "cabin",
+      "note": "复核流程"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-006",
+        "乘务员复核流程"
+      ],
+      [
+        "DOC-DEMO-006",
+        "车内事件分级与处置"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-006",
+        "车内事件分级与处置"
+      ],
+      [
+        "DOC-DEMO-006",
+        "乘务员复核流程"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 1.0959399999705965,
+    "retrieve_ms": 0.4889609999736422
+  },
+  {
+    "case": {
+      "case_id": "CB-03",
+      "query": "乘客躺地上多久算异常",
+      "keywords": [
+        "车内巡检",
+        "处置"
+      ],
+      "asset_type": "cabin",
+      "relevant": [
+        [
+          "DOC-DEMO-006",
+          "通道堵塞评估标准"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "hard",
+      "domain": "cabin",
+      "note": "口语化：躺地上=人员倒地15秒"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-006",
+        "车内事件分级与处置"
+      ],
+      [
+        "DOC-DEMO-006",
+        "通道堵塞评估标准"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-006",
+        "车内事件分级与处置"
+      ],
+      [
+        "DOC-DEMO-006",
+        "乘务员复核流程"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.9967789999905108,
+    "retrieve_ms": 0.610975000029157
+  },
+  {
+    "case": {
+      "case_id": "CB-04",
+      "query": "通道被行李堵住了怎么判断严重程度",
+      "keywords": [
+        "车内巡检",
+        "处置"
+      ],
+      "asset_type": "cabin",
+      "relevant": [
+        [
+          "DOC-DEMO-006",
+          "通道堵塞评估标准"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "medium",
+      "domain": "cabin",
+      "note": "通道堵塞30%宽度标准"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-006",
+        "通道堵塞评估标准"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-006",
+        "车内事件分级与处置"
+      ],
+      [
+        "DOC-DEMO-006",
+        "乘务员复核流程"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.7783490000292659,
+    "retrieve_ms": 0.47136400002045775
+  },
+  {
+    "case": {
+      "case_id": "CB-05",
+      "query": "确认火灾之后系统应该做什么",
+      "keywords": [
+        "烟雾",
+        "处置"
+      ],
+      "asset_type": "cabin",
+      "relevant": [
+        [
+          "DOC-DEMO-006",
+          "烟雾与火灾应急预案"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "medium",
+      "domain": "cabin",
+      "note": "火灾应急联动"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-006",
+        "烟雾与火灾应急预案"
+      ],
+      [
+        "DOC-DEMO-006",
+        "车内事件分级与处置"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-006",
+        "车内事件分级与处置"
+      ],
+      [
+        "DOC-DEMO-006",
+        "烟雾与火灾应急预案"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.8960470000261012,
+    "retrieve_ms": 0.7992399999920963
+  },
+  {
+    "case": {
+      "case_id": "CB-06",
+      "query": "巡检识别置信度不够怎么办",
+      "keywords": [
+        "车内巡检",
+        "处置"
+      ],
+      "asset_type": "cabin",
+      "relevant": [
+        [
+          "DOC-DEMO-006",
+          "乘务员复核流程"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "medium",
+      "domain": "cabin",
+      "note": "低置信度→人工复核"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-006",
+        "乘务员复核流程"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-006",
+        "车内事件分级与处置"
+      ],
+      [
+        "DOC-DEMO-006",
+        "乘务员复核流程"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 0.7477329999687754,
+    "retrieve_ms": 0.4931269999701726
+  },
+  {
+    "case": {
+      "case_id": "GN-01",
+      "query": "告警达到HIGH等级系统会自动做什么",
+      "keywords": [
+        "告警",
+        "升级"
+      ],
+      "asset_type": "pantograph",
+      "relevant": [
+        [
+          "DOC-DEMO-007",
+          "告警升级与联动处置"
+        ]
+      ],
+      "should_refuse": false,
+      "difficulty": "easy",
+      "domain": "general",
+      "note": "通用告警升级（受电弓域）"
+    },
+    "search_ids": [
+      [
+        "DOC-DEMO-007",
+        "告警升级与联动处置"
+      ]
+    ],
+    "search_refused": false,
+    "retrieve_ids": [
+      [
+        "DOC-DEMO-007",
+        "告警升级与联动处置"
+      ]
+    ],
+    "retrieve_refused": false,
+    "search_ms": 1.0107400000265443,
+    "retrieve_ms": 0.46703800001068885
+  },
+  {
+    "case": {
+      "case_id": "RF-01",
+      "query": "XYZQWE完全无关的查询词汇",
+      "keywords": [
+        "XYZQWE无关术语"
+      ],
+      "asset_type": "pantograph",
+      "relevant": [],
+      "should_refuse": true,
+      "difficulty": "easy",
+      "domain": "refusal",
+      "note": "乱码词应拒答"
+    },
+    "search_ids": [],
+    "search_refused": true,
+    "retrieve_ids": [],
+    "retrieve_refused": true,
+    "search_ms": 0.8885450000093442,
+    "retrieve_ms": 0.528561000010086
+  },
+  {
+    "case": {
+      "case_id": "RF-02",
+      "query": "火车轮胎气压标准是多少",
+      "keywords": [
+        "轮胎",
+        "气压"
+      ],
+      "asset_type": "pantograph",
+      "relevant": [],
+      "should_refuse": true,
+      "difficulty": "medium",
+      "domain": "refusal",
+      "note": "知识库无轮胎内容（无气轮胎除外）"
+    },
+    "search_ids": [],
+    "search_refused": true,
+    "retrieve_ids": [],
+    "retrieve_refused": true,
+    "search_ms": 0.9845710000035979,
+    "retrieve_ms": 0.4304109999679895
+  },
+  {
+    "case": {
+      "case_id": "RF-03",
+      "query": "食堂饭菜卫生管理规定",
+      "keywords": [
+        "食堂",
+        "饭菜"
+      ],
+      "asset_type": "cabin",
+      "relevant": [],
+      "should_refuse": true,
+      "difficulty": "easy",
+      "domain": "refusal",
+      "note": "完全域外话题"
+    },
+    "search_ids": [],
+    "search_refused": true,
+    "retrieve_ids": [],
+    "retrieve_refused": true,
+    "search_ms": 0.831289000018387,
+    "retrieve_ms": 0.48317200003111793
+  },
+  {
+    "case": {
+      "case_id": "RF-04",
+      "query": "牵引电机绕组绝缘阻值测量方法",
+      "keywords": [
+        "牵引电机",
+        "绝缘"
+      ],
+      "asset_type": "pantograph",
+      "relevant": [],
+      "should_refuse": true,
+      "difficulty": "hard",
+      "domain": "refusal",
+      "note": "相关但未入库的领域知识（不应虚构）"
+    },
+    "search_ids": [],
+    "search_refused": true,
+    "retrieve_ids": [],
+    "retrieve_refused": true,
+    "search_ms": 0.7168849999743543,
+    "retrieve_ms": 0.6038340000031894
+  },
+  {
+    "case": {
+      "case_id": "RF-05",
+      "query": "车厢烟雾处置流程",
+      "keywords": [
+        "烟雾",
+        "处置"
+      ],
+      "asset_type": "pantograph",
+      "relevant": [],
+      "should_refuse": true,
+      "difficulty": "medium",
+      "domain": "refusal",
+      "note": "正确知识挂错域：pantograph 域查烟雾应拒答"
+    },
+    "search_ids": [],
+    "search_refused": true,
+    "retrieve_ids": [],
+    "retrieve_refused": true,
+    "search_ms": 0.9051310000245394,
+    "retrieve_ms": 0.5041740000137906
+  }
+]

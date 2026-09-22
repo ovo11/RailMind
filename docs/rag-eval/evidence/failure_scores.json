@@ -1,0 +1,23 @@
+[
+  {
+    "case_id": "LS-03",
+    "chapter": "恶劣天气加强巡检",
+    "tfidf_cosine": 0.05506623163819313,
+    "keyword_score": 0.375,
+    "gate": 0.08
+  },
+  {
+    "case_id": "CB-03",
+    "chapter": "通道堵塞评估标准",
+    "tfidf_cosine": 0.05808514729142189,
+    "keyword_score": 0.375,
+    "gate": 0.08
+  },
+  {
+    "case_id": "CB-04",
+    "chapter": "通道堵塞评估标准",
+    "tfidf_cosine": 0.05808514729142189,
+    "keyword_score": 0.375,
+    "gate": 0.08
+  }
+]
