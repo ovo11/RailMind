@@ -1,0 +1,45 @@
+{
+  "source_commit": "e5bd01d8b76a23cc17b9a54de2cb2641298792fb",
+  "source_files": {
+    "upstream_summary.json": "37a21845d645f81ecd9d08c471387f6aac2b61085bd6bd27a6f9299f098e337c",
+    "all_36_cases.json": "1871810ab0763dabf15e62e85132d904c2c8ca2a49fd33a925a33e08c4e50e29",
+    "audit_upstream_summary.json": "ef4d742a4b594ed8c7648c9d8ba8e68616a8bb9e12cccb14c37f1c249a24468b",
+    "audited_metrics.json": "dc1c4da62b1b1741864884db39d41e77499df12b56e2e4d24e3f95f986e1f79d",
+    "sensitivity.json": "b89ed5ca4dae1d099a48f58894db333fec92eb36edf190ee9ae756a4b86e2715",
+    "environment.json": "bcd09518b607830dd98016fb9c3be93b8df1b299331ef3fa0423c35ac705a4f7",
+    "failure_scores.json": "19674cdae1b5362fcc47eb604140b4f5b6e75e0e686e7decb717c90524b6dbf1"
+  },
+  "precision_fixed_k_ceiling": 0.3548387096774194,
+  "figures": [
+    {
+      "name": "01_metrics",
+      "title": "双路径检索质量对比",
+      "caption": "自然语言路径使用原问题，关键词路径使用预给关键词；差距不能全部归因于检索算法。P@3 固定除以 3，其解释见图 06。"
+    },
+    {
+      "name": "02_ranks",
+      "title": "首个相关结果的位置分布",
+      "caption": "关键词路径有 13 题到第 2 或第 3 位才出现相关依据，另有 3 题未命中。若后续回答优先使用首条引用，排序问题值得单独检查；此处未测试生成答案。"
+    },
+    {
+      "name": "03_domains",
+      "title": "领域表现矩阵",
+      "caption": "通用跨域只有 1 题，满分不等于充分验证。热图统一使用 0～1 色阶；格内数值与原始逐题统计一致。"
+    },
+    {
+      "name": "04_failures",
+      "title": "失败用例的门槛分析",
+      "caption": "相关章节被提前移除，所以扩大 Top-K 无法恢复它们。下一步应补充天气、倒地、堵塞等查询信息，并联合验证误召回，不能据此直接统一降低门槛。"
+    },
+    {
+      "name": "05_sensitivity",
+      "title": "Top-K 与权重敏感性",
+      "caption": "Top-K 从 3 增至 5，命中与排序指标均未改善。关键词路径 α=1 的 MRR@3 为 0.7204，高于默认 0.6774；这是回归集观察，不能据此宣布独立测试最优。"
+    },
+    {
+      "name": "06_precision",
+      "title": "精确率口径与标注密度",
+      "caption": "自然语言路径已召回全部标注相关章节，因此标准 P@3 达到当前标注下的理论上限。实际返回精确率仍低于 1，说明返回列表中还包含未被标为相关的内容；两种口径应并列说明。"
+    }
+  ]
+}

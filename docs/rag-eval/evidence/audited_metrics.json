@@ -1,0 +1,746 @@
+{
+  "search": {
+    "hit": 1.0,
+    "mrr": 0.967742,
+    "precision_fixed_k": 0.354839,
+    "precision_returned": 0.532258,
+    "recall": 1.0,
+    "ndcg": 0.976189,
+    "false_refusal_rate": 0.0,
+    "answerable": 31,
+    "refusal": 5,
+    "hit_count": 31,
+    "rank_counts": {
+      "1": 29,
+      "2": 2
+    },
+    "failures": [],
+    "correct_refusal_rate": 1.0,
+    "short_returns": 14
+  },
+  "retrieve": {
+    "hit": 0.903226,
+    "mrr": 0.677419,
+    "precision_fixed_k": 0.311828,
+    "precision_returned": 0.430108,
+    "recall": 0.887097,
+    "ndcg": 0.723305,
+    "false_refusal_rate": 0.0,
+    "answerable": 31,
+    "refusal": 5,
+    "hit_count": 28,
+    "rank_counts": {
+      "1": 15,
+      "2": 10,
+      "3": 3,
+      "None": 3
+    },
+    "failures": [
+      {
+        "case_id": "LS-03",
+        "query": "大风天气需要加强线路巡检吗",
+        "keywords": [
+          "异物",
+          "处置"
+        ],
+        "expected": [
+          [
+            "DOC-DEMO-004",
+            "恶劣天气加强巡检"
+          ]
+        ],
+        "returned": [
+          [
+            "DOC-DEMO-004",
+            "异物分级与处置"
+          ],
+          [
+            "DOC-DEMO-004",
+            "影像点复核要求"
+          ]
+        ]
+      },
+      {
+        "case_id": "CB-03",
+        "query": "乘客躺地上多久算异常",
+        "keywords": [
+          "车内巡检",
+          "处置"
+        ],
+        "expected": [
+          [
+            "DOC-DEMO-006",
+            "通道堵塞评估标准"
+          ]
+        ],
+        "returned": [
+          [
+            "DOC-DEMO-006",
+            "车内事件分级与处置"
+          ],
+          [
+            "DOC-DEMO-006",
+            "乘务员复核流程"
+          ]
+        ]
+      },
+      {
+        "case_id": "CB-04",
+        "query": "通道被行李堵住了怎么判断严重程度",
+        "keywords": [
+          "车内巡检",
+          "处置"
+        ],
+        "expected": [
+          [
+            "DOC-DEMO-006",
+            "通道堵塞评估标准"
+          ]
+        ],
+        "returned": [
+          [
+            "DOC-DEMO-006",
+            "车内事件分级与处置"
+          ],
+          [
+            "DOC-DEMO-006",
+            "乘务员复核流程"
+          ]
+        ]
+      }
+    ],
+    "correct_refusal_rate": 1.0,
+    "short_returns": 15
+  },
+  "by_domain": {
+    "cabin": {
+      "search": {
+        "hit": 1.0,
+        "mrr": 0.916667,
+        "precision_fixed_k": 0.388889,
+        "precision_returned": 0.75,
+        "recall": 1.0,
+        "ndcg": 0.938488,
+        "false_refusal_rate": 0.0,
+        "answerable": 6,
+        "refusal": 0,
+        "hit_count": 6,
+        "rank_counts": {
+          "1": 5,
+          "2": 1
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 6
+      },
+      "retrieve": {
+        "hit": 0.666667,
+        "mrr": 0.416667,
+        "precision_fixed_k": 0.222222,
+        "precision_returned": 0.333333,
+        "recall": 0.583333,
+        "ndcg": 0.417656,
+        "false_refusal_rate": 0.0,
+        "answerable": 6,
+        "refusal": 0,
+        "hit_count": 4,
+        "rank_counts": {
+          "1": 1,
+          "2": 3,
+          "None": 2
+        },
+        "failures": [
+          {
+            "case_id": "CB-03",
+            "query": "乘客躺地上多久算异常",
+            "keywords": [
+              "车内巡检",
+              "处置"
+            ],
+            "expected": [
+              [
+                "DOC-DEMO-006",
+                "通道堵塞评估标准"
+              ]
+            ],
+            "returned": [
+              [
+                "DOC-DEMO-006",
+                "车内事件分级与处置"
+              ],
+              [
+                "DOC-DEMO-006",
+                "乘务员复核流程"
+              ]
+            ]
+          },
+          {
+            "case_id": "CB-04",
+            "query": "通道被行李堵住了怎么判断严重程度",
+            "keywords": [
+              "车内巡检",
+              "处置"
+            ],
+            "expected": [
+              [
+                "DOC-DEMO-006",
+                "通道堵塞评估标准"
+              ]
+            ],
+            "returned": [
+              [
+                "DOC-DEMO-006",
+                "车内事件分级与处置"
+              ],
+              [
+                "DOC-DEMO-006",
+                "乘务员复核流程"
+              ]
+            ]
+          }
+        ],
+        "correct_refusal_rate": null,
+        "short_returns": 6
+      }
+    },
+    "composite_structure": {
+      "search": {
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision_fixed_k": 0.333333,
+        "precision_returned": 0.444444,
+        "recall": 1.0,
+        "ndcg": 1.0,
+        "false_refusal_rate": 0.0,
+        "answerable": 6,
+        "refusal": 0,
+        "hit_count": 6,
+        "rank_counts": {
+          "1": 6
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 1
+      },
+      "retrieve": {
+        "hit": 1.0,
+        "mrr": 0.916667,
+        "precision_fixed_k": 0.333333,
+        "precision_returned": 0.555556,
+        "recall": 1.0,
+        "ndcg": 0.938488,
+        "false_refusal_rate": 0.0,
+        "answerable": 6,
+        "refusal": 0,
+        "hit_count": 6,
+        "rank_counts": {
+          "1": 5,
+          "2": 1
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 2
+      }
+    },
+    "general": {
+      "search": {
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision_fixed_k": 0.333333,
+        "precision_returned": 1.0,
+        "recall": 1.0,
+        "ndcg": 1.0,
+        "false_refusal_rate": 0.0,
+        "answerable": 1,
+        "refusal": 0,
+        "hit_count": 1,
+        "rank_counts": {
+          "1": 1
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 1
+      },
+      "retrieve": {
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision_fixed_k": 0.333333,
+        "precision_returned": 1.0,
+        "recall": 1.0,
+        "ndcg": 1.0,
+        "false_refusal_rate": 0.0,
+        "answerable": 1,
+        "refusal": 0,
+        "hit_count": 1,
+        "rank_counts": {
+          "1": 1
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 1
+      }
+    },
+    "lineside": {
+      "search": {
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision_fixed_k": 0.333333,
+        "precision_returned": 0.357143,
+        "recall": 1.0,
+        "ndcg": 1.0,
+        "false_refusal_rate": 0.0,
+        "answerable": 7,
+        "refusal": 0,
+        "hit_count": 7,
+        "rank_counts": {
+          "1": 7
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 1
+      },
+      "retrieve": {
+        "hit": 0.857143,
+        "mrr": 0.619048,
+        "precision_fixed_k": 0.285714,
+        "precision_returned": 0.333333,
+        "recall": 0.857143,
+        "ndcg": 0.680266,
+        "false_refusal_rate": 0.0,
+        "answerable": 7,
+        "refusal": 0,
+        "hit_count": 6,
+        "rank_counts": {
+          "1": 3,
+          "2": 2,
+          "None": 1,
+          "3": 1
+        },
+        "failures": [
+          {
+            "case_id": "LS-03",
+            "query": "大风天气需要加强线路巡检吗",
+            "keywords": [
+              "异物",
+              "处置"
+            ],
+            "expected": [
+              [
+                "DOC-DEMO-004",
+                "恶劣天气加强巡检"
+              ]
+            ],
+            "returned": [
+              [
+                "DOC-DEMO-004",
+                "异物分级与处置"
+              ],
+              [
+                "DOC-DEMO-004",
+                "影像点复核要求"
+              ]
+            ]
+          }
+        ],
+        "correct_refusal_rate": null,
+        "short_returns": 3
+      }
+    },
+    "pantograph": {
+      "search": {
+        "hit": 1.0,
+        "mrr": 0.916667,
+        "precision_fixed_k": 0.388889,
+        "precision_returned": 0.444444,
+        "recall": 1.0,
+        "ndcg": 0.938488,
+        "false_refusal_rate": 0.0,
+        "answerable": 6,
+        "refusal": 0,
+        "hit_count": 6,
+        "rank_counts": {
+          "1": 5,
+          "2": 1
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 2
+      },
+      "retrieve": {
+        "hit": 1.0,
+        "mrr": 0.694444,
+        "precision_fixed_k": 0.388889,
+        "precision_returned": 0.5,
+        "recall": 1.0,
+        "ndcg": 0.771822,
+        "false_refusal_rate": 0.0,
+        "answerable": 6,
+        "refusal": 0,
+        "hit_count": 6,
+        "rank_counts": {
+          "1": 3,
+          "2": 1,
+          "3": 2
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 3
+      }
+    },
+    "underbody": {
+      "search": {
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision_fixed_k": 0.333333,
+        "precision_returned": 0.633333,
+        "recall": 1.0,
+        "ndcg": 1.0,
+        "false_refusal_rate": 0.0,
+        "answerable": 5,
+        "refusal": 0,
+        "hit_count": 5,
+        "rank_counts": {
+          "1": 5
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 3
+      },
+      "retrieve": {
+        "hit": 1.0,
+        "mrr": 0.7,
+        "precision_fixed_k": 0.333333,
+        "precision_returned": 0.333333,
+        "recall": 1.0,
+        "ndcg": 0.778558,
+        "false_refusal_rate": 0.0,
+        "answerable": 5,
+        "refusal": 0,
+        "hit_count": 5,
+        "rank_counts": {
+          "1": 2,
+          "2": 3
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 0
+      }
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "search": {
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision_fixed_k": 0.358974,
+        "precision_returned": 0.512821,
+        "recall": 1.0,
+        "ndcg": 1.0,
+        "false_refusal_rate": 0.0,
+        "answerable": 13,
+        "refusal": 0,
+        "hit_count": 13,
+        "rank_counts": {
+          "1": 13
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 5
+      },
+      "retrieve": {
+        "hit": 1.0,
+        "mrr": 0.884615,
+        "precision_fixed_k": 0.333333,
+        "precision_returned": 0.487179,
+        "recall": 0.961538,
+        "ndcg": 0.885072,
+        "false_refusal_rate": 0.0,
+        "answerable": 13,
+        "refusal": 0,
+        "hit_count": 13,
+        "rank_counts": {
+          "1": 10,
+          "2": 3
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 6
+      }
+    },
+    "medium": {
+      "search": {
+        "hit": 1.0,
+        "mrr": 1.0,
+        "precision_fixed_k": 0.333333,
+        "precision_returned": 0.65,
+        "recall": 1.0,
+        "ndcg": 1.0,
+        "false_refusal_rate": 0.0,
+        "answerable": 10,
+        "refusal": 0,
+        "hit_count": 10,
+        "rank_counts": {
+          "1": 10
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 7
+      },
+      "retrieve": {
+        "hit": 0.9,
+        "mrr": 0.466667,
+        "precision_fixed_k": 0.3,
+        "precision_returned": 0.433333,
+        "recall": 0.9,
+        "ndcg": 0.578558,
+        "false_refusal_rate": 0.0,
+        "answerable": 10,
+        "refusal": 0,
+        "hit_count": 9,
+        "rank_counts": {
+          "1": 1,
+          "2": 6,
+          "3": 2,
+          "None": 1
+        },
+        "failures": [
+          {
+            "case_id": "CB-04",
+            "query": "通道被行李堵住了怎么判断严重程度",
+            "keywords": [
+              "车内巡检",
+              "处置"
+            ],
+            "expected": [
+              [
+                "DOC-DEMO-006",
+                "通道堵塞评估标准"
+              ]
+            ],
+            "returned": [
+              [
+                "DOC-DEMO-006",
+                "车内事件分级与处置"
+              ],
+              [
+                "DOC-DEMO-006",
+                "乘务员复核流程"
+              ]
+            ]
+          }
+        ],
+        "correct_refusal_rate": null,
+        "short_returns": 6
+      }
+    },
+    "hard": {
+      "search": {
+        "hit": 1.0,
+        "mrr": 0.875,
+        "precision_fixed_k": 0.375,
+        "precision_returned": 0.416667,
+        "recall": 1.0,
+        "ndcg": 0.907732,
+        "false_refusal_rate": 0.0,
+        "answerable": 8,
+        "refusal": 0,
+        "hit_count": 8,
+        "rank_counts": {
+          "1": 6,
+          "2": 2
+        },
+        "failures": [],
+        "correct_refusal_rate": null,
+        "short_returns": 2
+      },
+      "retrieve": {
+        "hit": 0.75,
+        "mrr": 0.604167,
+        "precision_fixed_k": 0.291667,
+        "precision_returned": 0.333333,
+        "recall": 0.75,
+        "ndcg": 0.641366,
+        "false_refusal_rate": 0.0,
+        "answerable": 8,
+        "refusal": 0,
+        "hit_count": 6,
+        "rank_counts": {
+          "2": 1,
+          "1": 4,
+          "3": 1,
+          "None": 2
+        },
+        "failures": [
+          {
+            "case_id": "LS-03",
+            "query": "大风天气需要加强线路巡检吗",
+            "keywords": [
+              "异物",
+              "处置"
+            ],
+            "expected": [
+              [
+                "DOC-DEMO-004",
+                "恶劣天气加强巡检"
+              ]
+            ],
+            "returned": [
+              [
+                "DOC-DEMO-004",
+                "异物分级与处置"
+              ],
+              [
+                "DOC-DEMO-004",
+                "影像点复核要求"
+              ]
+            ]
+          },
+          {
+            "case_id": "CB-03",
+            "query": "乘客躺地上多久算异常",
+            "keywords": [
+              "车内巡检",
+              "处置"
+            ],
+            "expected": [
+              [
+                "DOC-DEMO-006",
+                "通道堵塞评估标准"
+              ]
+            ],
+            "returned": [
+              [
+                "DOC-DEMO-006",
+                "车内事件分级与处置"
+              ],
+              [
+                "DOC-DEMO-006",
+                "乘务员复核流程"
+              ]
+            ]
+          }
+        ],
+        "correct_refusal_rate": null,
+        "short_returns": 3
+      }
+    }
+  },
+  "coverage": {
+    "physical_chunks": 26,
+    "unique_doc_chapter": 22,
+    "gold_doc_chapter": 22,
+    "missing_gold": [],
+    "uncovered_doc_chapter": [],
+    "domain_chunk_counts": {
+      "composite_structure": 5,
+      "pantograph": 5,
+      "underbody": 4,
+      "lineside": 7,
+      "cabin": 5
+    }
+  },
+  "duplicate_keyword_queries": [
+    {
+      "asset_type": "cabin",
+      "keywords": [
+        "车内巡检",
+        "处置"
+      ],
+      "case_ids": [
+        "CB-01",
+        "CB-02",
+        "CB-03",
+        "CB-04",
+        "CB-06"
+      ],
+      "distinct_gold_sets": 3
+    },
+    {
+      "asset_type": "composite_structure",
+      "keywords": [
+        "传感器",
+        "自检"
+      ],
+      "case_ids": [
+        "CS-03",
+        "CS-06"
+      ],
+      "distinct_gold_sets": 1
+    },
+    {
+      "asset_type": "lineside",
+      "keywords": [
+        "异物",
+        "处置"
+      ],
+      "case_ids": [
+        "LS-02",
+        "LS-03"
+      ],
+      "distinct_gold_sets": 2
+    },
+    {
+      "asset_type": "lineside",
+      "keywords": [
+        "扣件",
+        "处置",
+        "弹条"
+      ],
+      "case_ids": [
+        "LS-04",
+        "LS-07"
+      ],
+      "distinct_gold_sets": 1
+    },
+    {
+      "asset_type": "pantograph",
+      "keywords": [
+        "滑板磨耗",
+        "处置"
+      ],
+      "case_ids": [
+        "PT-01",
+        "PT-04"
+      ],
+      "distinct_gold_sets": 2
+    },
+    {
+      "asset_type": "pantograph",
+      "keywords": [
+        "电弧",
+        "处置"
+      ],
+      "case_ids": [
+        "PT-02",
+        "PT-03",
+        "PT-05"
+      ],
+      "distinct_gold_sets": 3
+    },
+    {
+      "asset_type": "underbody",
+      "keywords": [
+        "检查门",
+        "处置"
+      ],
+      "case_ids": [
+        "UB-02",
+        "UB-04"
+      ],
+      "distinct_gold_sets": 1
+    },
+    {
+      "asset_type": "underbody",
+      "keywords": [
+        "检查门",
+        "处置",
+        "锁闭"
+      ],
+      "case_ids": [
+        "UB-01",
+        "UB-05"
+      ],
+      "distinct_gold_sets": 1
+    }
+  ]
+}
